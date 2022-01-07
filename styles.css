@@ -1,0 +1,490 @@
+*{
+    box-sizing: box-border;
+}
+
+ body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(31, 31, 31);
+ }
+
+/* BANNER */
+.banner {
+    background-image: url("https://wallpaperaccess.com/full/3771624.jpg");
+    height: 303px;
+    width: 100%;
+    background-size: cover;
+    z-index: 2;
+    position: absolute;
+    line-height: 50px;
+}
+
+.minecraftbanner {
+    background-image: url("/IMAGES/MINECRAFT.png");
+    height: 170px;
+    width: 320px;
+    background-size: cover;
+    position: absolute;
+    z-index: 3;
+    left: 40%;
+}
+
+.guidebanner {
+    background-image: url("/IMAGES/MINECRAFT\ G|UIDE.png");
+    height: 35px;
+    width: 150px;
+    background-size: cover;
+    position: absolute;
+    z-index: 4;
+    left: 45%;
+    top: 14%;
+}
+
+/* NAVIGATION BAR */
+a{
+     text-align: center;
+     font-family: "Lucida Console", "Courier New", monospace;
+     display: inline-block;
+     font-size: 22px;
+     opacity: 84%;
+}
+
+.nav{
+    background-color: black;
+    height: 55px;
+    top: 0px;
+    position:-webkit-sticky;
+    z-index: 20;
+}
+  
+.navtwo{
+   width: 19%;
+}
+
+ .CONTROLS {
+    left: 0%;
+ }
+
+ .CRAFTING{
+    left: 20%;
+ }
+
+ .VILLAGERS{
+   left: 40%;
+ }
+
+ .ENCHANTMENTS{
+    left: 60%;
+ }
+
+   .TABLES{
+    left: 80%;
+   }
+
+   .HOMECO{
+      left: 0%;
+   }
+
+   .HOMECR{
+      left: 20%;
+   }
+
+   .HOMEV{
+      left: 40%;
+   }
+
+   .HOMEE{
+      left: 60%;}
+
+   .HOMET{
+      left: 80%;
+
+   }
+
+   /*VILLAGERS*/
+   .VINFO1{
+      color: white;
+      opacity: 70%;
+      font-family: "Lucida Console", "Courier New", monospace;
+      margin: 3%;
+      margin-top: 2%;
+      width: 40%;
+      display: inline-block;
+      font-size: 19px;
+   }
+
+   .VINFO2{
+      color: white;
+      opacity: 70%;
+      font-family: "Lucida Console", "Courier New", monospace;
+      margin: 3%;
+      margin-top: 2%;
+      font-size: 19px;
+      display: block;
+   }
+
+   .big{
+      font-size: 22px;
+   }
+
+   .VIMG1{
+      background-image: url("https://i1.wp.com/www.iskmogul.com/wp-content/uploads/2020/05/Minecraft-Villager.jpg?fit=850%2C560&ssl=1");
+      width: 47%;
+      height: 540px;
+      background-size: cover;
+      display: inline-block;
+      border:outset rgba(0, 0, 0, 0.733) 7px;
+   }
+
+   .VIMG2{
+      background-image: url("https://cdn.apexminecrafthosting.com/img/uploads/2021/09/20205342/Mw20bv40laGHOGzbbSIkT38oGntla8xEdE_7r5HO2VY.png");
+      width: 87%;
+      height: 1240px;
+      background-size: cover;
+      display: block;
+      margin: 6%;
+      border:outset rgba(0, 0, 0, 0.733) 7px;
+      margin-top: 3%;
+   }
+
+   /*ENCHANTMENTS*/
+   .EINF0{
+      color: white;
+      opacity: 70%;
+      font-family: "Lucida Console", "Courier New", monospace;
+      margin: 3%;
+      margin-top: 2%;
+      width: 40%;
+      display: inline-block;
+      font-size: 19px;
+      margin-bottom: 0px;
+   }
+
+   .EINF2{
+      color: white;
+      opacity: 70%;
+      font-family: "Lucida Console", "Courier New", monospace;
+      margin: 3%;
+      width: 40%;
+      display: inline-block;
+      font-size: 19px;
+      margin-top: 0px;
+   }
+
+   .EIMG{
+      background-size: cover;
+      display: inline-block;
+      height:110px ;
+      width:110px ;
+     align-content: center;
+     margin: 5.58%;
+     margin-top: 1%;
+     margin-bottom: 1%;
+     border:outset rgba(0, 0, 0, 0.733) 7px;
+   }
+
+   .EINFO{
+      color: white;
+      display: inline-table;
+      text-align: center;
+      font-size: 20px;
+      width: 110px;
+      margin: 5.2%;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      text-align: center;
+      height: 400px;
+      font-family:  "Lucida Console", "Courier New", monospace;
+      border:outset rgba(0, 0, 0, 0.733) 7px;
+   }
+
+   .SMALL{
+      font-size: 13;
+   }
+
+   .EINF1{
+      color: white;
+      opacity: 70%;
+      font-family: "Lucida Console", "Courier New", monospace;
+      margin: 3%;
+      margin-top: 0%;
+      display: block;
+      font-size: 19px;
+   }
+
+   .EINF3{
+      color: white;
+      opacity: 70%;
+      font-family: "Lucida Console", "Courier New", monospace;
+      margin: 3%;
+      margin-top: 0%;
+      display: block;
+      font-size: 25px;
+      margin-bottom: 0%;
+      opacity: 100%;
+   }
+
+   .BOOKSHELF{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b1/Enchanting-Table.png");
+      background-size: cover;
+      align-content: center;
+      border:outset rgba(0, 0, 0, 0.733) 7px;
+      display: inline-block;
+      height: 300px;
+      width: 50%;
+   }
+
+   .ENCHANT_EX{
+      background-image: url("/IMAGES/Screen\ Shot\ 2022-01-06\ at\ 2.19.21\ PM.png");
+      background-size: cover;
+      align-content: center;
+      border:outset rgba(0, 0, 0, 0.733) 7px;
+      display: inline-block;
+      width: 50%;
+      height: 350px;
+   }
+
+   .HELMET{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8c/Diamond_Helmet_%28item%29_JE2_BE2.png");
+   }
+
+   .CHESTPLATE{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e3/Diamond_Chestplate_%28item%29_JE1_BE1.png");
+   }
+
+   .LEGGINGS{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/87/Diamond_Leggings_%28item%29_JE3_BE3.png");
+   }
+
+   .BOOTS{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/01/Diamond_Boots_%28item%29_JE3_BE3.png");
+   }
+
+   .ELYTRA{
+      background-image: url("https://static.wikia.nocookie.net/minecraft/images/6/66/ElytraNew.png");
+   }
+
+   .SWORD{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d1/Enchanted_Diamond_Sword.gif");
+   }
+
+   .AXE{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/40/Diamond_Axe_JE3_BE3.png");
+   }
+
+   .PICKAXE{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7a/Diamond_Pickaxe_JE2_BE2.png");
+   }
+   
+   .SHOVEL{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ec/Diamond_Shovel_JE3_BE3.png");
+   }
+
+   .CROSSBOW{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4f/Arrow_Loaded_Crossbow.png");
+   }
+
+   .FISHINGROD{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7f/Fishing_Rod_JE2_BE2.png");
+   }
+
+   .TRIDENT{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/ba/Trident_%28item%29.png");
+   }
+
+   .BOW{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/99/Bow_JE2_BE1.png");
+   }
+
+   /*TABLES*/
+   .TINFO{
+      color: white;
+      opacity: 70%;
+      font-family: "Lucida Console", "Courier New", monospace;
+      margin: 3%;
+      display: block;
+      font-size: 25px;
+      margin-bottom: 0%;
+      opacity: 100%;
+   }
+   .POTIONS{
+      background-image: url("https://external-preview.redd.it/VSDV3IbLV4YQvOOUOHP8MWnIxcpdddM1oziM5Wl2ueQ.jpg?width=640&crop=smart&auto=webp&s=d05e5ccc71242d8e157380e1ff8ede7af649d092");
+      height: 980px;
+      width: 700px;
+      background-size: cover;
+      align-content: center;
+      display: inline-table;
+      margin: 3%;
+      margin-top: 0%;
+      border:outset rgba(0, 0, 0, 0.733) 7px;
+      margin-right: 2%;
+   }
+
+   .CIRCLES{
+       background-image: url("https://lh5.googleusercontent.com/proxy/pwUqh1ha_drr7e0zAjUs6WfpMtARnp8B6KcPc_0xM1UU9yz1Ew3jcMgUzadcobQILo9wbE7qSM6zJI8vLqtz17VhVFodXkn5j-Zsn7x6p2y6alIM9iZ8LBMZ5_m66Bl8=w1200-h630-p-k-no-nu");
+       height: 490px;
+       width: 490px;
+       background-size: cover;
+       align-content: center;
+       display: inline-table;
+       margin: 5%;
+       border:outset rgba(0, 0, 0, 0.733) 7px;
+       margin-bottom: 3%;
+       margin-right: 2%;
+      }
+
+    .ORE{
+       background-image: url("https://www.pcgamesn.com/wp-content/uploads/2021/11/minecraft-118-ore-distribution.jpg");
+       height: 490px;
+       width: 580px;
+       background-size: cover;
+       align-content: center;
+       display: inline-table;
+       margin: 5%;
+       border:outset rgba(0, 0, 0, 0.733) 7px;
+       margin-bottom: 3%;
+       margin-left: 2%;
+    }
+    
+
+    .DYE{
+       background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b0/DyeGraph2.png");
+       background-size: cover;
+       align-content: center;
+       display: inline-table;
+       border:outset rgba(0, 0, 0, 0.733) 7px;
+       height: 690px;
+       width: 690px;
+       margin: 2.5%;
+    }
+
+    .DYE_RECEPIE{
+       background-image: url("https://preview.redd.it/ochdun67j1f31.png?auto=webp&s=5e3d5faeb8b1e334739263628bb6cb99ed6171e1");
+       height: 980px;
+       width: 580px;
+       background-size: cover;
+       align-content: center;
+       display: inline-table;
+       border:outset rgba(0, 0, 0, 0.733) 7px;
+       margin: 3%;
+       margin-left: 0%;
+    }
+
+    .FOOD{
+       background-image: url("https://i.pinimg.com/originals/bf/b1/3f/bfb13f85ba41b58244306a0f0f8d5e16.png");
+       background-size: cover;
+       display: inline-table;
+       border:outset rgba(0, 0, 0, 0.733) 7px;
+       height: 690px;
+       width: 550px;
+       margin: 2.5%;
+    }
+
+
+    /*CRAFTING*/
+    .CRINFO{
+      color: white;
+      opacity: 70%;
+      font-family: "Lucida Console", "Courier New", monospace;
+      margin: 3%;
+      margin-top: 2%;
+      font-size: 19px;
+      display: block;
+      margin-bottom: 2%;
+    }
+
+    .CRAFTINGTABLE{
+       background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/39/Crafting_Table_GUI.png");
+       width: 400px;
+       height: 300px;
+       background-size: cover;
+       align-content: center;
+       display: inline-block;
+       margin: 9%;
+       margin-top: 1%;
+       border:outset rgba(0, 0, 0, 0.733) 7px;
+       margin-bottom: 1%;
+    }
+
+    .INVENTORYCRAFTING{
+      background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/88/Crafting2x2.png");
+      width: 450px;
+      height: 300px;
+      background-size: cover;
+      align-content: center;
+      display: inline-block;
+      margin: 9%;
+      margin-top: 1%;
+      border:outset rgba(0, 0, 0, 0.733) 7px;
+      margin-bottom: 1%;
+    }
+
+    /*HOMEPAGE*/
+    .HIMG1{
+       background-image: url("https://assets.xboxservices.com/assets/fb/8f/fb8f4675-955f-4930-aab4-3292ec16289e.jpg?n=Minecraft_Feature-Center-1084_XGP-Shotlock_1600x600.jpg");
+       height: 280px;
+       border:outset rgba(0, 0, 0, 0.733) 7px;
+       background-size: cover;
+       align-content: center;
+       display: inline-block;
+       width: 50%;
+      }
+
+      .HIMG2{
+         background-image: url("https://compass-ssl.xbox.com/assets/49/3a/493a570c-b4a7-47c2-9f92-ec8979a7c6ae.jpg?n=Minecraft_Sneaky-Slider-1084_Caves-and-Cliffs_1600x675.jpg");
+         background-size: cover;
+         align-content: center;
+         display: inline-block;
+         margin-top: 1%;
+         border:outset rgba(0, 0, 0, 0.733) 7px;
+         margin-bottom: 1%;
+         height: 300px;
+         width: 50%;
+      }
+
+      .HINFO1{
+         color: white;
+         opacity: 70%;
+         font-family: "Lucida Console", "Courier New", monospace;
+         margin: 3%;
+         margin-top: 2%;
+         width: 40%;
+         display: inline-block;
+         font-size: 19px;
+         margin-bottom: 1%;
+      }
+
+      .HLINK{
+         color: white;
+         background-color: black;
+         padding: 1.85%;
+         border:outset rgba(0, 0, 0, 0.733) 7px;
+         margin: 7%;
+         margin-top: 3%;
+      }
+
+      /*CONTROLS*/
+      .CONTROLSTABLE{
+         border: white solid 2px;
+         color: white;
+         font-size: 20px;
+         padding: 1%;
+         opacity: 65%;
+      }
+
+      .CINFO{
+         color: white;
+         opacity: 70%;
+         font-family: "Lucida Console", "Courier New", monospace;
+         margin: 3%;
+         margin-top: 1%;
+         display: block;
+         font-size: 15px;
+         margin-bottom: 2%;
+         opacity: 100%;
+      }
+
+      .CTABLE{
+         margin: 1%;
+      }
+
